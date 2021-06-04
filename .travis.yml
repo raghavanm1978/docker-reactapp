@@ -4,7 +4,7 @@ services:
 
 
 before_install:
-  - docker build  -t raghavanm1978/docker-reactapp  -f Dockerfile.dev .
+  - docker build  -t raghavanm1978/docker-reactapp  -f dockerfile.dev .
 
 script:
   - docker run raghavanm1978/docker-reactapp npm run test -- --coverage
