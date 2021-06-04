@@ -15,6 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+        learn react
          This is active reload yay!!!!
         </a>
       </header>
